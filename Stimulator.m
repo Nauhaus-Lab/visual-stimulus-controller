@@ -1,23 +1,28 @@
 function Stimulator
 
 %%
-addpath('C:\Stimulator_control\COM_acquisition')
-addpath('C:\Stimulator_control\COM_display')
-addpath('C:\Stimulator_control\Calibration')
-addpath('C:\Stimulator_control\DisplayCode')
-addpath('C:\Stimulator_control\GUIs')
-addpath('C:\Stimulator_control\formula functions')
-addpath('C:\Stimulator_control\onlineAnalysis')
-addpath('C:\Stimulator_control\sync_inputs')
 
-rmpath('C:\ISI acquisition and analysis\Processing\AnalysisCode')
-rmpath('C:\ISI acquisition and analysis\Processing\ISI_Processing')
-rmpath('C:\ISI acquisition and analysis\Processing\ISIAnGUI')
-rmpath('C:\ISI acquisition and analysis\Processing\ISIAnGUI\general')
-rmpath('C:\ISI acquisition and analysis\Processing\AnalysisCode\ContrastResp')
-rmpath('C:\ISI acquisition and analysis\Processing\AnalysisCode\DynamicProcess')
-rmpath('C:\ISI acquisition and analysis\Processing\AnalysisCode\DynamicProcess\RevCorr_GUI')
-rmpath('C:\ISI acquisition and analysis\Processing\offlineMovementCorrection')
+%Add controller folders to the path
+root = 'C:\stimulus_control\';
+addpath([root 'COM_acquisition'])
+addpath([root 'COM_display'])
+addpath([root 'Calibration'])
+addpath([root 'DisplayCode'])
+addpath([root 'GUIs'])
+addpath([root 'formula functions'])
+addpath([root 'onlineAnalysis'])
+addpath([root 'sync_inputs'])
+
+%Remove analysis folder from the path
+root = 'C:\ISI acquisition and analysis\';
+rmpath([root 'Processing\AnalysisCode'])
+rmpath([root 'Processing\ISI_Processing'])
+rmpath([root 'Processing\ISIAnGUI'])
+rmpath([root 'Processing\ISIAnGUI\general'])
+rmpath([root 'Processing\AnalysisCode\ContrastResp'])
+rmpath([root 'Processing\AnalysisCode\DynamicProcess'])
+rmpath([root 'Processing\AnalysisCode\DynamicProcess\RevCorr_GUI'])
+rmpath([root 'Processing\offlineMovementCorrection'])
 
 
 %Initialize stimulus parameter structures
