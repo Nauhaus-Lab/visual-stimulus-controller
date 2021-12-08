@@ -1,5 +1,5 @@
 # visual-stimulus-controller
-This code sends commands to the visual-stimulus-generator computer via MATLAB GUI
+This code sends commands over udp to a computer that presents visual stimuli (see visual-stimulus-generator repo). It also aligns experimental information (e.g. file names) with local widefield, local ephys, or remote 2photon acquisition. Visual stimulus parameters are configured using MATLAB GUI in this folder.  It is used on a Windows 10 machine with MATLAB 2021.
 
 Install:
 
@@ -11,5 +11,5 @@ Install:
 
 configureMstate.m: 
 
-Here, you will set folder locations, ip addresses, some flags, and a few other high level defaults. For example, 'Mstate.analyzerRoot' is the folder you created for the .analyzer files above.  ip addresses are for the visual stimulus generations computer (see inauhaus/visual-stimulus-generator repo), along with the 2p computer (Ringach's Scanbox in our case)
+Here, you will set folder locations, ip addresses, some flags, and a few other high level defaults. For example, 'Mstate.analyzerRoot' is the folder you created for the .analyzer files above.  ip addresses are for the visual stimulus computer (see visual-stimulus-generator repo), along with the 2p computer if you happen to be doing that (Ringach's Scanbox in our case).
 
