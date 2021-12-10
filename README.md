@@ -18,5 +18,4 @@ Schematic of connectivity:
 
 To perform widefield imaging alone, only computer 'A' and 'B' are used.  For two-photon acquisition, a third machine ('C') is necessary.
 
-
-![Slide1](https://user-images.githubusercontent.com/13107530/145627421-d2d6683c-db47-4a3d-ada8-0f023d9558e7.jpeg)
+![Slide1](https://user-images.githubusercontent.com/13107530/145627782-aee2ca0b-4889-453e-992b-73eba64d8565.jpeg)
