@@ -1,4 +1,4 @@
-This readme file pertains to 4 repositories, all of which are used to run a visual neurophysiology experiment.
+This readme file pertains to 4 repositories, all of which are used to run a visual neurophysiology experiment. The location of each repo is on one of three computers, as indicated in the schematic below.
 
 ![Slide1](https://user-images.githubusercontent.com/13107530/145627782-aee2ca0b-4889-453e-992b-73eba64d8565.jpeg)
 
