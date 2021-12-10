@@ -1,7 +1,9 @@
 This readme file pertains to 4 repositories, all of which are used to run a visual neurophysiology experiment.
 
+![Slide1](https://user-images.githubusercontent.com/13107530/145627782-aee2ca0b-4889-453e-992b-73eba64d8565.jpeg)
+
 # Repo 1: /visual-stimulus-controller/
-This code sends commands over udp to a computer that presents visual stimuli (see /visual-stimulus-generator/ ). It also aligns experimental information (e.g. file names) with local widefield, local ephys, or remote 2photon acquisition. Visual stimulus parameters are configured using MATLAB GUI in this folder.  It is used on a Windows 10 machine with MATLAB 2021.
+This code is run on computer 'A' (see above). It sends commands over udp to a computer that presents visual stimuli (see /visual-stimulus-generator/ ). It also aligns experimental information (e.g. file names) with local widefield, local ephys, or remote 2photon acquisition. Visual stimulus parameters are configured using MATLAB GUI in this folder.  It is used on a Windows 10 machine with MATLAB 2021.
 
 Install:
 
@@ -20,10 +22,13 @@ Schematic of connectivity:
 
 To perform widefield imaging alone, only computer 'A' and 'B' are used.  For two-photon acquisition, a third machine ('C') is necessary.
 
-![Slide1](https://user-images.githubusercontent.com/13107530/145627782-aee2ca0b-4889-453e-992b-73eba64d8565.jpeg)
-
 
 # Repo 2: /visual-stimulus-generator/
+
+We run this on a Mac (computer 'B' in above schematic).  After downloading Psychtoolbox, set and save paths to all folders within this repo.  
+
+configCom.m
+Set the ipaddress to be that of the computer 'A' (the controller)
 
 updateMonitor.m
 You can set parameters for an arbitrary number of displays.  The controller GUI window 'MW' has a field that allows you to access each.
