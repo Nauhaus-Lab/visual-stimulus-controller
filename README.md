@@ -13,5 +13,4 @@ configureMstate.m:
 
 Here, you will set folder locations, ip addresses, some flags, and a few other high level defaults. For example, 'Mstate.analyzerRoot' is the folder you created for the .analyzer files above.  ip addresses are for the visual stimulus computer (see visual-stimulus-generator repo), along with the 2p computer if you happen to be doing that (Ringach's Scanbox in our case).
 
-
-[Rig outline.pdf](https://github.com/inauhaus/visual-stimulus-controller/files/7694836/Rig.outline.pdf)
+![Slide1](https://user-images.githubusercontent.com/13107530/145625849-1acf9ce1-5038-4ed8-b8ec-41a38514fba6.jpeg)
